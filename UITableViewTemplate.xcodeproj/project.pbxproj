@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0081BB5238C1F9A00B501F2 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = F0081BB4238C1F9A00B501F2 /* GoogleService-Info (1).plist */; };
 		F01CF500238AFFFB0082C6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CF4FF238AFFFB0082C6DD /* AppDelegate.swift */; };
 		F01CF502238AFFFB0082C6DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CF501238AFFFB0082C6DD /* SceneDelegate.swift */; };
 		F01CF504238AFFFB0082C6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CF503238AFFFB0082C6DD /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0081BB4238C1F9A00B501F2 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		F01CF4FC238AFFFB0082C6DD /* UITableViewTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01CF4FF238AFFFB0082C6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F01CF501238AFFFB0082C6DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		F01CF4FE238AFFFB0082C6DD /* UITableViewTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F0081BB4238C1F9A00B501F2 /* GoogleService-Info (1).plist */,
 				F01CF4FF238AFFFB0082C6DD /* AppDelegate.swift */,
 				F01CF501238AFFFB0082C6DD /* SceneDelegate.swift */,
 				F01CF503238AFFFB0082C6DD /* ViewController.swift */,
@@ -131,6 +134,7 @@
 				F01CF50C238B00020082C6DD /* LaunchScreen.storyboard in Resources */,
 				F01CF509238B00020082C6DD /* Assets.xcassets in Resources */,
 				F01CF507238AFFFB0082C6DD /* Main.storyboard in Resources */,
+				F0081BB5238C1F9A00B501F2 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.movilesuniandes.UITableViewTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildproductions.reciclapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.movilesuniandes.UITableViewTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildproductions.reciclapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
