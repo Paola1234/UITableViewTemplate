@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		308D469BF0AFBDCD4EFD2AC0 /* Pods_UITableViewTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CE9F244A52A6D57796845F /* Pods_UITableViewTemplate.framework */; };
-		F0081BB5238C1F9A00B501F2 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = F0081BB4238C1F9A00B501F2 /* GoogleService-Info (1).plist */; };
+		F0081BB5238C1F9A00B501F2 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = F0081BB4238C1F9A00B501F2 /* GoogleService-Info .plist */; };
 		F01CF500238AFFFB0082C6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CF4FF238AFFFB0082C6DD /* AppDelegate.swift */; };
 		F01CF502238AFFFB0082C6DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CF501238AFFFB0082C6DD /* SceneDelegate.swift */; };
 		F01CF504238AFFFB0082C6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CF503238AFFFB0082C6DD /* ViewController.swift */; };
@@ -22,7 +22,7 @@
 		60DB5ED360FAF3D798CE8352 /* Pods-UITableViewTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableViewTemplate.debug.xcconfig"; path = "Target Support Files/Pods-UITableViewTemplate/Pods-UITableViewTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		96CE9F244A52A6D57796845F /* Pods_UITableViewTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITableViewTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9819112BED22F7FBC919BD36 /* Pods-UITableViewTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableViewTemplate.release.xcconfig"; path = "Target Support Files/Pods-UITableViewTemplate/Pods-UITableViewTemplate.release.xcconfig"; sourceTree = "<group>"; };
-		F0081BB4238C1F9A00B501F2 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		F0081BB4238C1F9A00B501F2 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info .plist"; path = "../../../../Downloads/GoogleService-Info .plist"; sourceTree = "<group>"; };
 		F01CF4FC238AFFFB0082C6DD /* UITableViewTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01CF4FF238AFFFB0082C6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F01CF501238AFFFB0082C6DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +60,6 @@
 				60DB5ED360FAF3D798CE8352 /* Pods-UITableViewTemplate.debug.xcconfig */,
 				9819112BED22F7FBC919BD36 /* Pods-UITableViewTemplate.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,7 +84,7 @@
 		F01CF4FE238AFFFB0082C6DD /* UITableViewTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				F0081BB4238C1F9A00B501F2 /* GoogleService-Info (1).plist */,
+				F0081BB4238C1F9A00B501F2 /* GoogleService-Info .plist */,
 				F01CF4FF238AFFFB0082C6DD /* AppDelegate.swift */,
 				F01CF501238AFFFB0082C6DD /* SceneDelegate.swift */,
 				F01CF503238AFFFB0082C6DD /* ViewController.swift */,
@@ -161,7 +160,7 @@
 				F01CF50C238B00020082C6DD /* LaunchScreen.storyboard in Resources */,
 				F01CF509238B00020082C6DD /* Assets.xcassets in Resources */,
 				F01CF507238AFFFB0082C6DD /* Main.storyboard in Resources */,
-				F0081BB5238C1F9A00B501F2 /* GoogleService-Info (1).plist in Resources */,
+				F0081BB5238C1F9A00B501F2 /* GoogleService-Info .plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
